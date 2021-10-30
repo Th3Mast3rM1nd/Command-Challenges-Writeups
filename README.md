@@ -16,6 +16,7 @@ Your first challenge is to print "hello world" on the terminal in a single comma
 Print the current working directory.
 <details>
   <summary> <b>View Solution </b></summary>
+  
 ```pwd```
 </details>
 
@@ -24,6 +25,7 @@ Print the current working directory.
 List names of all the files in the current directory, one file per line 
 <details>
   <summary> <b>View Solution </b></summary>
+  
 ```ls```
 </details>
 
@@ -32,6 +34,7 @@ List names of all the files in the current directory, one file per line
 There is a file named access.log in the current directory. Print the contents.
 <details>
   <summary> <b>View Solution </b></summary>
+  
  ```cat access.log```
  </details>
  
@@ -40,6 +43,7 @@ There is a file named access.log in the current directory. Print the contents.
  Print the last 5 lines of "access.log".
 <details>
   <summary> <b>View Solution </b></summary>
+  
 ``` cat access.log | tail -n 5 ```
 </details>
 
@@ -48,6 +52,7 @@ There is a file named access.log in the current directory. Print the contents.
  Create an empty file named take-the-command-challenge in the current working directory.
 <details>
   <summary> <b>View Solution </b></summary>
+  
 ```> take-the-command-challenge```
 </details>
 
@@ -57,6 +62,7 @@ There is a file named access.log in the current directory. Print the contents.
 
 <details>
   <summary> <b>View Solution </b></summary>
+  
 ```mkdir -p tmp/files```
 </details>
  
@@ -66,6 +72,7 @@ There is a file named access.log in the current directory. Print the contents.
 
 <details>
   <summary> <b>View Solution </b></summary>
+  
 ```cp take-the-command-challenge  tmp/files```
 </details>
 
@@ -75,6 +82,7 @@ Move the file named take-the-command-challenge to the directory tmp/files
 
 <details>
   <summary> <b>View Solution </b></summary>
+  
 ```mv take-the-command-challenge  tmp/files```
 </details>
 
@@ -84,6 +92,7 @@ Create a symbolic link named take-the-command-challenge that points to the file 
 
 <details>
   <summary> <b>View Solution </b></summary>
+  
 ```ln -s tmp/files/take-the-command-challenge take-the-command-challenge ```
 </details>
 
@@ -93,6 +102,7 @@ Delete all of the files in this challenge directory including all subdirectories
 
 <details>
   <summary> <b>View Solution </b></summary>
+  
 ```rm -rf .* ./*```
 </details>
 
@@ -102,6 +112,7 @@ There are files in this challenge with different file extensions. Remove all fil
 
 <details>
   <summary> <b>View Solution </b></summary>
+  
 ```rm -f **/*.doc```
 </details>
 
@@ -111,6 +122,7 @@ There is a file named access.log in the current working directory. Print all lin
 
 <details>
   <summary> <b>View Solution </b></summary>
+  
 ```cat access.log | grep -i "GET"```
 </details>
 
@@ -118,9 +130,9 @@ There is a file named access.log in the current working directory. Print all lin
 
 Print all files in the current directory, one per line (not the path, just the filename) that contain the string "500".
 
-
 <details>
   <summary> <b>View Solution </b></summary>
+  
 ```grep -Rli "500"```
 </details>
 
@@ -130,6 +142,7 @@ Print the relative file paths, one path per line for all filenames that start wi
 
 <details>
   <summary> <b>View Solution </b></summary>
+  
 ```ls -r```
 </details>
 
@@ -139,6 +152,7 @@ Print all matching lines (without the filename or the file path) in all files un
 
 <details>
   <summary> <b>View Solution </b></summary>
+  
 ```find ./ -type f -name access.* -exec grep -i "500" "{}" ";"```
 </details>
 
@@ -148,6 +162,7 @@ Extract all IP addresses from files that start with "access.log" printing one IP
 
 <details>
   <summary> <b>View Solution </b></summary>
+  
 ``````
 </details>
 
