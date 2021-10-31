@@ -3,7 +3,7 @@ Writeups For https://cmdchallenge.com/
 
 ***Challenge 1*** :
 
-Your first challenge is to print "hello world" on the terminal in a single command.
+<kbd>Your first challenge is to print "hello world" on the terminal in a single command.</kbd>
 
 <details>
   <summary> <b>View Solution </b></summary>
@@ -15,7 +15,7 @@ Your first challenge is to print "hello world" on the terminal in a single comma
 
 ***Challenge 2*** :
 
-Print the current working directory.
+<kbd>Print the current working directory.</kbd>
 <details>
   <summary> <b>View Solution </b></summary>
   
@@ -26,7 +26,7 @@ Print the current working directory.
 
 ***Challenge 3*** :
 
-List names of all the files in the current directory, one file per line 
+<h><kbd>List names of all the files in the current directory, one file per line</kbd></h>
 <details>
   <summary> <b>View Solution </b></summary>
   
@@ -37,7 +37,7 @@ List names of all the files in the current directory, one file per line
 
 ***Challenge 4*** :
 
-There is a file named access.log in the current directory. Print the contents.
+<kbd>There is a file named access.log in the current directory. Print the contents.</kbd>
 <details>
   <summary> <b>View Solution </b></summary>
   
@@ -48,7 +48,7 @@ There is a file named access.log in the current directory. Print the contents.
  
  ***Challenge 5*** :
  
- Print the last 5 lines of "access.log".
+ <kbd>Print the last 5 lines of "access.log".</kbd>
 <details>
   <summary> <b>View Solution </b></summary>
   
@@ -59,7 +59,7 @@ There is a file named access.log in the current directory. Print the contents.
 
  ***Challenge 6*** :
  
- Create an empty file named take-the-command-challenge in the current working directory.
+ <kbd>Create an empty file named take-the-command-challenge in the current working directory.</kbd>
 <details>
   <summary> <b>View Solution </b></summary>
   
@@ -70,7 +70,7 @@ There is a file named access.log in the current directory. Print the contents.
 
  ***Challenge 7*** :
  
- Create a directory named tmp/files in the current working directory
+ <kbd>Create a directory named tmp/files in the current working directory</kbd>
 
 <details>
   <summary> <b>View Solution </b></summary>
@@ -82,7 +82,7 @@ There is a file named access.log in the current directory. Print the contents.
  
  ***Challenge 8*** :
  
- Copy the file named take-the-command-challenge to the directory tmp/files
+ <kbd>Copy the file named take-the-command-challenge to the directory tmp/files</kbd>
 
 <details>
   <summary> <b>View Solution </b></summary>
@@ -94,7 +94,7 @@ There is a file named access.log in the current directory. Print the contents.
 
 ***Challenge 9***: 
 
-Move the file named take-the-command-challenge to the directory tmp/files
+<kbd>Move the file named take-the-command-challenge to the directory tmp/files</kbd>
 
 <details>
   <summary> <b>View Solution </b></summary>
@@ -106,7 +106,7 @@ Move the file named take-the-command-challenge to the directory tmp/files
 
 ***Challenge 10***: 
 
-Create a symbolic link named take-the-command-challenge that points to the file tmp/files/take-the-command-challenge
+<kbd>Create a symbolic link named take-the-command-challenge that points to the file tmp/files/take-the-command-challenge</kbd>
 
 <details>
   <summary> <b>View Solution </b></summary>
@@ -118,7 +118,7 @@ Create a symbolic link named take-the-command-challenge that points to the file 
 
 ***Challenge 11***:
 
-Delete all of the files in this challenge directory including all subdirectories and their contents
+<kbd>Delete all of the files in this challenge directory including all subdirectories and their contents</kbd>
 
 <details>
   <summary> <b>View Solution </b></summary>
@@ -130,7 +130,7 @@ Delete all of the files in this challenge directory including all subdirectories
 
 ***Challenge 12***
 
-There are files in this challenge with different file extensions. Remove all files with the .doc extension recursively in the current working directory.
+<kbd>There are files in this challenge with different file extensions. Remove all files with the .doc extension recursively in the current working directory.</kbd>
 
 <details>
   <summary> <b>View Solution </b></summary>
@@ -142,7 +142,7 @@ There are files in this challenge with different file extensions. Remove all fil
 
 ***Challenge 13***
 
-There is a file named access.log in the current working directory. Print all lines in this file that contains the string "GET".
+<kbd>There is a file named access.log in the current working directory. Print all lines in this file that contains the string "GET".</kbd>
 
 <details>
   <summary> <b>View Solution </b></summary>
@@ -154,7 +154,7 @@ There is a file named access.log in the current working directory. Print all lin
 
 ***Challenge 14***
 
-Print all files in the current directory, one per line (not the path, just the filename) that contain the string "500".
+<kbd>Print all files in the current directory, one per line (not the path, just the filename) that contain the string "500".</kbd>
 
 <details>
   <summary> <b>View Solution </b></summary>
@@ -166,7 +166,7 @@ Print all files in the current directory, one per line (not the path, just the f
 
 ***Challenge 15***
 
-Print the relative file paths, one path per line for all filenames that start with "access.log" in the current directory.
+<kbd>Print the relative file paths, one path per line for all filenames that start with "access.log" in the current directory.</kbd>
 
 <details>
   <summary> <b>View Solution </b></summary>
@@ -178,7 +178,7 @@ Print the relative file paths, one path per line for all filenames that start wi
 
 ***Challenge 16***
 
-Print all matching lines (without the filename or the file path) in all files under the current directory that start with "access.log" that contain the string "500".
+<kbd>Print all matching lines (without the filename or the file path) in all files under the current directory that start with "access.log" that contain the string "500".</kbd>
 
 <details>
   <summary> <b>View Solution </b></summary>
@@ -190,7 +190,7 @@ Print all matching lines (without the filename or the file path) in all files un
 
 ***Challenge 17***
 
-Extract all IP addresses from files that start with "access.log" printing one IP address per line.
+<kbd>Extract all IP addresses from files that start with "access.log" printing one IP address per line.</kbd>
 
 <details>
   <summary> <b>View Solution </b></summary>
