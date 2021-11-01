@@ -196,12 +196,49 @@ Writeups For https://cmdchallenge.com/
   <summary> <b>View Solution </b></summary>
   
 ```
-  
+  find . -type f -name access.log* -exec egrep -io '[0-9]{1,3}(\.[0-9]{1,3}){3}' "{}" ";" 
   ```
 </details>
 
+***Challenge 18***
 
+<kbd>Count the number of files in the current working directory. Print the number of files as a single integer.
 
+</kbd>
+
+<details>
+  <summary> <b>View Solution </b></summary>
+  
+```
+  ls -l | wc -l
+  ```
+</details>
+
+***Challenge 19***
+
+<kbd>Print the contents of access.log sorted.
+</kbd>
+
+<details>
+  <summary> <b>View Solution </b></summary>
+  
+```
+  cat access.log | sort
+  ```
+</details>
+
+***Challenge 20***
+
+<kbd>Print the number of lines in access.log that contain the string "GET".
+</kbd>
+
+<details>
+  <summary> <b>View Solution </b></summary>
+  
+```
+  cat access.log | grep -io "GET" | wc -l
+  ```
+</details>
 
 
 
