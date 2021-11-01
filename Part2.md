@@ -141,5 +141,16 @@ cat faces.txt | sed -n "25p"
   ```
 </details>
 
+***Challenge 31*** :
+
+<kbd>Print the lines of the file reverse-me.txt in this directory in reverse line order so that the last line is printed first and the first line is printed last.
+  </kbd>
+<details>
+  <summary> <b>View Solution </b></summary>
+  
+```
+cat reverse-me.txt | tac
+  ```
+</details>
 
 
